@@ -8,38 +8,40 @@
     <title>Color Scheme Generator</title>
 </head>
 <body>
-    <header>
-        <input type="color" name="seed-color" id="seedColor">
+    <div class="outer-container">
+        <header>
+            <input type="color" name="seed-color" id="seedColor">
 
-        <select name="color-scheme" id="color-scheme">
-            <option> monochrome</option>
-            <option> monochrome-dark</option>
-            <option> monochrome-light</option>
-            <option> analogic</option>
-            <option> complement</option>
-            <option> analogic-complement</option>
-            <option> triad</option>
-            <option> quad</option>
-        </select>
+            <select name="color-scheme" id="color-scheme">
+                <option> monochrome</option>
+                <option> monochrome-dark</option>
+                <option> monochrome-light</option>
+                <option> analogic</option>
+                <option> complement</option>
+                <option> analogic-complement</option>
+                <option> triad</option>
+                <option> quad</option>
+            </select>
 
-        <button id="colorBtn" class="color-btn">Get color scheme</button>
-    </header>
+            <button id="colorBtn" class="color-btn">Get color scheme</button>
+        </header>
 
-    <main class = "color-boxes">
-        <div class = "color-div" id = "color-1"></div>
-        <div class = "color-div" id = "color-2"></div>
-        <div class = "color-div" id = "color-3"></div>
-        <div class = "color-div" id = "color-4"></div>
-        <div class = "color-div" id = "color-5"></div>
-    </main>
-    <section class = "color-hex">
-        <div class = "hex-div">#0A0C1B</div>
-        <div class = "hex-div">#171C40</div>
-        <div class = "hex-div">#242B67</div>
-        <div class = "hex-div">#303B8D</div>
-        <div class = "hex-div">#3C49B5</div>
-    </section>
-
+        <main class = "color-boxes">
+            <div class = "color-div" id = "color-1"></div>
+            <div class = "color-div" id = "color-2"></div>
+            <div class = "color-div" id = "color-3"></div>
+            <div class = "color-div" id = "color-4"></div>
+            <div class = "color-div" id = "color-5"></div>
+        </main>
+    
+        <section class = "color-hex">
+            <div class = "hex-div">#0A0C1B</div>
+            <div class = "hex-div">#171C40</div>
+            <div class = "hex-div">#242B67</div>
+            <div class = "hex-div">#303B8D</div>
+            <div class = "hex-div">#3C49B5</div>
+        </section>
+    </div>
 
     <script src="color.js"></script>
 </body>

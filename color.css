@@ -14,7 +14,7 @@ header {
     margin:25px;
     width:75px;
     height:50px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #color-scheme {
@@ -35,7 +35,7 @@ header {
     margin:25px;
     background-color:#3D4B60;
     color:white;
-    padding:13px 11px;
+    padding:15px 25px;
     border: none;
     border-radius:5px;
     font-size: 16px;
@@ -57,6 +57,15 @@ header {
     font-size: 12px;
     color: white;
     background-color: #1F2937;
+}
+
+.outer-container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.color-div {
+    max-width: 300px;
 }
 
 #color-1,
